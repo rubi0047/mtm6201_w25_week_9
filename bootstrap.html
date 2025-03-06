@@ -56,11 +56,11 @@
         <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h3 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                   Breakfast
                 </button>
               </h3>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <ul>
                         <li>Eggs</li>
@@ -102,6 +102,22 @@
                 </div>
               </div>
             </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Other
+                  </button>
+                </h3>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <ul>
+                          <li>Pikachu</li>
+                          <li>Tauros</li>
+                          <li>Magicarp</li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
         </div>
     </div>
 
